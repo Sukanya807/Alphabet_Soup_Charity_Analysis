@@ -51,7 +51,7 @@ Three additional attempts were made to increase the accuracy of the model to 75%
 - The number of epochs were increased to 80.
 - The model was unable to reach the target accuracy.
 
-![](Images/attempt 1 accuracy.png)
+![](Images/attempt_1_accuracy.png)
 
 **** Second Attempt
 - The columns EIN, NAME and STATUS were dropped from the dataframe.
@@ -61,7 +61,7 @@ Three additional attempts were made to increase the accuracy of the model to 75%
 - The number of epochs was changed to 100.
 - The model was unable to reach the target accuracy.
 
-![](Images/attempt 2 accuracy.png)
+![](Images/attempt_2_accuracy.png)
 
 **** Third Attempt
 - The columns EIN,NAME and STATUS were dropped from the dataframe.
@@ -71,7 +71,7 @@ Three additional attempts were made to increase the accuracy of the model to 75%
 - The number of epochs were 100.
 - The model failed to achieve the desired accuracy.
 
-![](Images/attempt 3 accuracy.png)
+![](Images/attempt_3_accuracy.png)
 
 ## Summary
 
