@@ -31,13 +31,12 @@ The purpose of this project is to use machine learning and neural networks and c
 - The activation functions used in the hidden layers are **RELU** which is ideal for looking at positive non-linear input data for classification or regression.
 - The activation function used in the output layer is **SIGMOID** which is ideal for binary classification.
 
-![](Images/initial model train.png)
+![](Images/initial_model_train.png)
 
 **Was the model able to achieve the traget performance?**
 
 The model was not able to achieve the target accuracy of 75%. The accuracy of this model was only 72.6%.
-
-![](Images/initial model accuracy.png)
+![](Images/initial_model_accuracy.png)
 
 **What steps were taken to increase model performance**
 
