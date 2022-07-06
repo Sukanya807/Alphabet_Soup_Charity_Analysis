@@ -42,7 +42,7 @@ The model was not able to achieve the target accuracy of 75%. The accuracy of th
 
 Three additional attempts were made to increase the accuracy of the model to 75% and above.
 
-**** First Attempt
+#### First Attempt
 
 - Two additional variables, Organization and Status were dropped from the dataframe before training.
 - The number of hidden layers were increased to 4.
@@ -53,7 +53,7 @@ Three additional attempts were made to increase the accuracy of the model to 75%
 
 ![](Images/attempt_1_accuracy.png)
 
-**** Second Attempt
+#### Second Attempt
 - The columns EIN, NAME and STATUS were dropped from the dataframe.
 - Three hidden layers were included in the model.
 - The number of neurons in the hidden layers were 100, 90 and 70 respectively.
@@ -63,7 +63,7 @@ Three additional attempts were made to increase the accuracy of the model to 75%
 
 ![](Images/attempt_2_accuracy.png)
 
-**** Third Attempt
+#### Third Attempt
 - The columns EIN,NAME and STATUS were dropped from the dataframe.
 - The app type count was increased to 7000 and classification count increased to 3000 for binning.
 - The number of hidden layers added to the model was 4 with activation functions of relu, tanh, relu and relu respectively.
