@@ -8,5 +8,14 @@ The purpose of this project is to use machine learning and neural networks and c
 - Compile, Train and Evaluate the Model
 - Optimizing the model
 
+## Resources
+- Neural Network and deep learning
+- Python - Pandas, Tensorflow, ScikitLearn
+- Jupyter Notebook
+
+## Data Source
+[Alphabet Soup Charity Dataset](https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-online/module_19/charity_data.csv)
+
+
 
 
