@@ -73,6 +73,13 @@ Three additional attempts were made to increase the accuracy of the model to 75%
 
 ![](Images/attempt_3_accuracy.png)
 
+#### Fourth Attempt
+- Columns EIN and NAME were dropped from the dataframe before analysis.
+- The Keras-Tuner was used for auto optimization.
+- The model still failed to achieve the desired accuracy.
+
+
+
 ## Summary
 
 Despite the various changes made in the model in the three attempts, the model was unable to reach the target accuracy of 75%. The average accuracy of this model continued to be around 72%. We could try to optimize this model by removing more features or adding more datapoints. A Random Forest Classifier model can probably do a better job here instead of neural networks. This is because the random forest is a robust and accurate model that use a number of weak learner algorithms and combine their output to make a final classification. The model can also easily handle non-linear data and outliers.
